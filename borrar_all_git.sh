@@ -1,5 +1,5 @@
 #! /bin/bash
-rm lista_modulos.txt
+#rm lista_modulos.txt
 for i in $(ls -d */); do echo ${i%%/}; done | cat > lista_modulos.txt
 echo "Modulos a recorrer"
 cat lista_modulos.txt
@@ -17,6 +17,6 @@ do
     echo "pronto el borrado del git del modulo ${MODULO}"
     cd ..
 done
-rm lista_modulos.txt
+#rm lista_modulos.txt
 echo "Hecho !"
 
