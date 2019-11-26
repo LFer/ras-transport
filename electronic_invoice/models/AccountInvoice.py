@@ -12,6 +12,7 @@ import psycopg2
 import smtplib
 from odoo.tools.safe_eval import safe_eval
 
+
 # mapping invoice type to journal type
 TYPE2JOURNAL = {
     'out_invoice': 'sale',
