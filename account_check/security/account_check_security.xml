@@ -14,5 +14,6 @@
             <field eval="True" name="global"/>
             <field name="domain_force">['|',('check_id.company_id','=',False),('check_id.company_id','child_of',[user.company_id.id])]</field>
         </record>
+        
     </data>
 </odoo>
